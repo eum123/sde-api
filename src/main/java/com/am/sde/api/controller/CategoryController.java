@@ -72,7 +72,7 @@ public class CategoryController {
         @ApiResponse(code = 200, message = "Success", response = Category.class)
     })
     @ApiOperation(value = "카테고리 정보 삭제")
-    @GetMapping(value = "/insertCategory")
+    @GetMapping(value = "/deleteCategory")
     public int deleteCategory() {
 
         return 0;
